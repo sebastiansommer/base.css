@@ -156,3 +156,13 @@ html[xmlns] .clearfix
     -khtml-user-select: none;
     -webkit-user-select:ignore;
 }
+
+
+/*
+ * HTML5 Support
+ * @see http://www.w3.org/wiki/HTML_structural_elements#HTML5_element_support
+ */
+article, section, aside, hgroup, nav, header, footer, figure, figcaption
+{
+    display: block;
+}
