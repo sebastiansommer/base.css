@@ -1,0 +1,68 @@
+/*
+    * Base.css (Modified, Beta-Test)
+    *
+    * @author Sebastian Sommer <mail@sebastian-sommer.com>
+    * @author Steffen Mächtel <mail@meffen.de>
+*/
+
+a, address, b, body, div, h1, h2, h3, h4, h5, h6, i, input, label, legend, p, pre, li, select, strong, sub, sup, td, textarea, th {
+    color: inherit;
+    font: inherit;
+}
+
+input {
+    margin: 0;
+    @include appearance(none);
+    @include border-radius(0);
+    -webkit-border-radius: 0;
+}
+
+body, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+em, strong, b, i {
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+img, td, th, object {
+    vertical-align: top;
+}
+
+th {
+    text-align: left;
+}
+
+img, fieldset {
+    border: 0;
+}
+
+fieldset, legend {
+    padding: 0;
+}
+
+ul, ol, ol li, ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+    font-weight: bold;
+}
+
+em, i {
+    font-style: italic;
+}
+
+sup, sub {
+    font-size: 9px;
+}
+
+small {
+    font-size: 9px;
+}
